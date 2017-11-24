@@ -1,0 +1,22 @@
+{
+  "name": "dot-install-node",
+  "version": "1.0.0",
+  "description": "ドットインストールのnode.jsの学習履歴管理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naoto86/dot-install-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naoto86/dot-install-node/issues"
+  },
+  "homepage": "https://github.com/naoto86/dot-install-node#readme",
+  "dependencies": {
+    "ejs": "^2.5.7"
+  }
+}
