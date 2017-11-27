@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/naoto86/dot-install-node#readme",
   "dependencies": {
-    "ejs": "^2.5.7"
+    "ejs": "^2.5.7",
+    "mongodb": "^2.2.33"
   }
 }
