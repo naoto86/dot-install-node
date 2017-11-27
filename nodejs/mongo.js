@@ -9,8 +9,15 @@ MongoClient.connect("mongodb://localhost/"+settings.db, function (err, db) {
       {name:'fkoji',score:80},
       {name:'dotinstall',score:60},
     ]
-    collection.insert(docs, function(err, result){
-      console.dir(result)
+    // collection.find({name:"taguchi"}).toArray(function(err, items){
+    //   console.log(items)
+    // })
+    var stream = collection.find().stream();
+    stream.on("data",function(item){
+      console.log(item);
+    });
+    stream.on("end", function(){
+      console.log("finished")
     })
   })
 })
